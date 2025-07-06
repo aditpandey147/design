@@ -1,52 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white px-2">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img class=" yvd-logo" src="img/logo.webp" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Doc</a>
-          </li>
-        </ul>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-2">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img class="yvd-logo" src="img/logo.webp" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Doc</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <section class="yvd-hero d-flex  justify-content-center align-item-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 d-flex justify-content-center align-item-center">
-          <div class="yvd-heading-wrap ">
-            <h1 class="yvd-h1 text-center text-white">Download YouTube Videos Instantly — Fast, Free & Easy</h1>
-            <div class="yvd-para-wrap">
-              <p class="text-center text-white">Paste your YouTube video link below and download in MP4 or MP3 format — no signup needed</p>
+    <section class="yvd-hero d-flex justify-content-center align-item-center">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-12 d-flex justify-content-center align-item-center"
+          >
+            <div class="yvd-heading-wrap">
+              <h1 class="yvd-h1 text-center text-white">
+                Download YouTube Videos Instantly — Fast, Free & Easy
+              </h1>
+              <div class="yvd-para-wrap">
+                <p class="text-center text-white">
+                  Paste your YouTube video link below and download in MP4 or MP3
+                  format — no signup needed
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center align-item-center">
+            <div
+              class="text-field-main d-flex justify-content-center align-item-cente"
+            >
+              <div class="text-field-wrap">
+                <input
+                  class="input-field"
+                  type="text"
+                  placeholder="paste here"
+                />
+              </div>
+              <div class="paste-wrap">
+                <i class="fa-solid fa-paste" style="color: #000000"></i>
+                <p>Paste</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-12 button-main d-flex justify-content-center align-item-center">
+            <div class="format-wrap">
+              <div
+                class="custom-select d-flex justify-content-center align-item-center"
+              >
+                <select>
+                  <option selected disabled>Select Format</option>
+                  <option value="mp3">MP3 (Audio)</option>
+                  <option value="mp4_720">MP4 (720p Video)</option>
+                  <option value="mp4_360">MP4 (360p Video)</option>
+                </select>
+                <i class="fa-solid fa-caret-down" style="color: #000000"></i>
+              </div>
+            </div>
+            <button class="cssbuttons-io-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+              >
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path
+                  fill="currentColor"
+                  d="M1 14.5a6.496 6.496 0 0 1 3.064-5.519 8.001 8.001 0 0 1 15.872 0 6.5 6.5 0 0 1-2.936 12L7 21c-3.356-.274-6-3.078-6-6.5zm15.848 4.487a4.5 4.5 0 0 0 2.03-8.309l-.807-.503-.12-.942a6.001 6.001 0 0 0-11.903 0l-.12.942-.805.503a4.5 4.5 0 0 0 2.029 8.309l.173.013h9.35l.173-.013zM13 12h3l-4 5-4-5h3V8h2v4z"
+                ></path>
+              </svg>
+              <span>Download</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="my-2 footer-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <div class="footer-wrap text-center">
+              <p>Designed And Developed by DNP INFOTECH.</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12  d-flex justify-content-center align-item-center">
-          <div class="text-field-main  d-flex justify-content-center align-item-cente"> 
-            <div class="text-field-wrap">
-              <input class="input-field" type="text" placeholder="paste here">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
-</body>
+    </footer>
+  </body>
 </html>
