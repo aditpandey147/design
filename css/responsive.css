@@ -8,6 +8,11 @@
     a.navbar-brand {
     width: 613px;
 }
+.yvd-hero {
+  background-color: #221d6e;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
 }
 @media (max-width:768px) {
   .yvd-heading-wrap{
