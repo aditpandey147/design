@@ -192,3 +192,13 @@ h4{
 .h5-padding{
   padding-bottom: 15px;
 }
+
+.icon-wrap{
+  display: flex;
+  gap: 15px;
+  justify-content: start;
+  align-items: start;
+}
+.step-heading-wrap{
+  padding: 0px 0px 15px 0px;
+}
